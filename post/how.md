@@ -26,7 +26,7 @@ will need a buffer size of **512MB**:
 
 If using buffer of **30MB** you could upload up to 300GB:
 
-    s3m /path_to/5TB.file <s3>/<bucket>/file -b 31457280
+    s3m /path_to_max/300GB.file <s3>/<bucket>/file -b 31457280
 
 
 The current limits for AWS S3 are: (https://docs.aws.amazon.com/AmazonS3/latest/dev/qfacts.html)
@@ -44,7 +44,7 @@ If you would like to upload up to 500GB objects:
 
 The buffer size to use **50MB**:
 
-    s3m /path_to/5TB.file <s3>/<bucket>/file -b 52428800
+    s3m /path_to_max/500GB.file <s3>/<bucket>/file -b 52428800
 
 
 
